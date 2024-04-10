@@ -1,3 +1,5 @@
+package com.example.charliegutzmanncustomersupport;
+
 public class Attachment {
     private String name;
     private byte[] contents;

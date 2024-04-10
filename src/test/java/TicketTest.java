@@ -1,5 +1,7 @@
 import static org.junit.Assert.*;
 
+import com.example.charliegutzmanncustomersupport.Attachment;
+import com.example.charliegutzmanncustomersupport.Ticket;
 import org.junit.Test;
 
 public class TicketTest {
