@@ -1,33 +1,31 @@
 package com.example.charliegutzmanncustomersupport;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.Serializable;
 
-public class Ticket {
-    private String customerName;
+public class Ticket implements Serializable {
+    private String name;
     private String subject;
     private String body;
-    private Map<Integer, Attachment> attachments;
+
+    private Attachment attachment;
 
     public Ticket() {
-        this.attachments = new HashMap<>();
+        super();
     }
 
-    public Ticket(String customerName, String subject, String body) {
-        this.customerName = customerName;
+    public Ticket(String name, String subject, String body, Attachment attachment) {
+        this.name = name;
         this.subject = subject;
         this.body = body;
-        this.attachments = new HashMap<>();
+        this.attachment = attachment;
     }
 
-    public String getCustomerName() {
-        return customerName;
+    public String getName() {
+        return name;
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
+    public void setName(String customerName) {
+        this.name = name;
     }
 
     public String getSubject() {
@@ -46,20 +44,21 @@ public class Ticket {
         this.body = body;
     }
 
-    public void addAttachment(Attachment attachment) {
-        int index = attachments.size();
-        attachments.put(index, attachment);
+    public Attachment getAttachment() {return attachment;}
+
+    public void setAttachment(Attachment attachment){this.attachment = attachment;}
+
+    public boolean hasAttachment() {
+        return attachment.getName().length() > 0 && attachment.getContents().length > 0;
     }
 
-    public int getNumberOfAttachments() {
-        return attachments.size();
-    }
-
-    public Attachment getAttachment(int index) {
-        return attachments.get(index);
-    }
-
-    public List<Attachment> getAllAttachments() {
-        return new ArrayList<>(attachments.values());
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "name='" + name + '\'' +
+                ", subject=" + subject +
+                ", body='" + body + '\'' +
+                ", attachment=" + attachment +
+                '}';
     }
 }

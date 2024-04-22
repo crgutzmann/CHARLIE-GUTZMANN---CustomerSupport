@@ -1,6 +1,9 @@
 package com.example.charliegutzmanncustomersupport;
 
-public class Attachment {
+import java.io.Serializable;
+import java.util.Arrays;
+
+public class Attachment implements Serializable {
     private String name;
     private byte[] contents;
 
@@ -18,5 +21,13 @@ public class Attachment {
 
     public void setContents(byte[] contents) {
         this.contents = contents;
+    }
+
+    @Override
+    public String toString() {
+        return "Image{" +
+                "name='" + name + '\'' +
+                ", contents=" + Arrays.toString(contents) +
+                '}';
     }
 }
