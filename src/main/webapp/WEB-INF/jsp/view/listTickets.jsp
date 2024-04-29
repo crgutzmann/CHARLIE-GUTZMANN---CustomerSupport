@@ -3,6 +3,9 @@
     <title>Tickets</title>
 </head>
 <body>
+<a href="<c:url value='/login'>
+        <c:param name='logout'/>
+    </c:url>">Logout</a>
 <h2>Tickets</h2>
 <a href="<c:url value='/ticket'>
         <c:param name='action' value='createTicket' />
@@ -17,7 +20,7 @@
             <a href="<c:url value='/ticket' >
                     <c:param name='action' value='view' />
                     <c:param name='ticketId' value='${ticket.key}' />
-                </c:url>">&nbsp;<c:out value="${ticket.value.name}"/></a><br>
+                </c:url>">&nbsp;<c:out value="${ticket.value.subject}"/></a><br>
         </c:forEach>
     </c:otherwise>
 </c:choose>
