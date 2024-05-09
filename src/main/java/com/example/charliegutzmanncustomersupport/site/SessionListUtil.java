@@ -1,4 +1,4 @@
-package com.example.charliegutzmanncustomersupport;
+package com.example.charliegutzmanncustomersupport.site;
 
 import jakarta.servlet.http.HttpSession;
 

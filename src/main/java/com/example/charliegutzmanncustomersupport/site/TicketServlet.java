@@ -1,4 +1,4 @@
-package com.example.charliegutzmanncustomersupport;
+package com.example.charliegutzmanncustomersupport.site;
 
 import java.io.*;
 import java.util.LinkedHashMap;
@@ -56,7 +56,7 @@ public class TicketServlet extends HttpServlet {
     private void createTicket(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //makey makey wakey wakey
         Ticket ticket = new Ticket();
-        ticket.setName(request.getParameter("title"));
+        ticket.setName(request.getParameter("Name"));
         ticket.setSubject(request.getParameter("subject"));
         ticket.setBody(request.getParameter("body"));
 

@@ -10,18 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="351bff6b-21cb-40b7-8e12-20678ea3465f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/sessions.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/config/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/config/RootContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/config/ServletContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/listTickets.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/listTickets.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/ticketForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/ticketForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/viewTicket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/viewTicket.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/Attachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/Attachment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/TicketServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/TicketServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2eb1gsu30bstz5kULrSbuQTj1um" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -263,6 +270,9 @@
       <workItem from="1713790268972" duration="231000" />
       <workItem from="1713886430882" duration="3454000" />
       <workItem from="1714404420517" duration="1885000" />
+      <workItem from="1714753403192" duration="655000" />
+      <workItem from="1715268637459" duration="247000" />
+      <workItem from="1715268905718" duration="539000" />
     </task>
     <servers />
   </component>

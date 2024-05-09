@@ -1,4 +1,4 @@
-package com.example.charliegutzmanncustomersupport;
+package com.example.charliegutzmanncustomersupport.site;
 
 import java.io.Serializable;
 import java.util.Arrays;
