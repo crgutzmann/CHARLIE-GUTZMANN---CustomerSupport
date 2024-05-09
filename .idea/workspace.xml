@@ -10,22 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="351bff6b-21cb-40b7-8e12-20678ea3465f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/config/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/config/RootContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/config/ServletContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/Attachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/Attachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/SessionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/TicketServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/TicketServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/DownloadView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/SessionListServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/charliegutzmanncustomersupport/site/TicketController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +81,7 @@
       <recent name="com.example.charliegutzmanncustomersupport" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.20">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="TicketTest.testAddAttachmentAndGetNumberOfAttachments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CHARLIEGUTZMANN-CustomerSupport" />
       <option name="PACKAGE_NAME" value="" />
@@ -142,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 10.1.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.8" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="CHARLIEGUTZMANN-CustomerSupport:war exploded">
@@ -152,7 +142,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="e38cf749-c6a9-43d7-a90e-c2d6049e7d7f" />
+        <option name="BASE_DIRECTORY_NAME" value="b02a7e6a-aea5-496f-b157-d4769215d0b8" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -160,7 +150,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60905" />
+        <option name="DEBUG_PORT" value="51241" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -235,7 +225,7 @@
       <item itemvalue="JUnit.TicketTest.testGetAllAttachments" />
       <item itemvalue="JUnit.TicketTest.testGetAttachment" />
       <item itemvalue="JUnit.TicketTest.testTicketConstructor" />
-      <item itemvalue="Tomcat Server.Tomcat 10.1.20" />
+      <item itemvalue="Tomcat Server.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -273,6 +263,7 @@
       <workItem from="1714753403192" duration="655000" />
       <workItem from="1715268637459" duration="247000" />
       <workItem from="1715268905718" duration="539000" />
+      <workItem from="1715269458244" duration="2722000" />
     </task>
     <servers />
   </component>

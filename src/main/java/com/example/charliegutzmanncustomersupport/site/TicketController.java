@@ -34,7 +34,7 @@ public class TicketController {
     public View createPost(@ModelAttribute("ticket")TicketForm form) throws IOException {
         Ticket ticket = new Ticket();
         ticket.setName(form.getName());
-        ticket.setSubject(form.getSubject);
+        ticket.setSubject(form.getSubject());
         ticket.setBody(form.getBody());
 
         MultipartFile file = form.getAttachment();
